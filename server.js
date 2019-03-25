@@ -6,7 +6,6 @@ var callback=(req,res,err)=>{
     if(err){console.log(err)}
     res.send({"name":"sunil",
             "number":12334});
-    // res.next;
 }
 app
 .get('/search',callback)
