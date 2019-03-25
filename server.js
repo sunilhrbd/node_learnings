@@ -10,8 +10,8 @@ var callback=(req,res,err)=>{
 app
 .get('/search',callback)
 .get('/search/api',(req,res)=>{
-    res.send({"name":"sunil",
-    "number":12334})
+    res.send({"name":"sample",
+    "number":542484})
 })
 
 app.listen('5100');
