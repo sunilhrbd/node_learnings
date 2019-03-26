@@ -11,7 +11,7 @@ var port=4000;
 })
    
 request
-    .get('http://localhost:4000/home')
+    .get(`http://localhost:${port}/home`)
     .then(res=>{
         console.log(JSON.stringify(res.body,null,2))
     }).catch((err)=>{
